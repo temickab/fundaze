@@ -19,7 +19,9 @@
 
 /* Photo Content */
 .fixed-photo-content{
-    background-image: url('../img/img1.jpg');
+    background-image: url("../img/img1.jpg");
+    height: 90vh;
+    width: 100%;
     
 }
 /* End Photo Content */
