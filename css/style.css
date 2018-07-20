@@ -1,29 +1,67 @@
+/* *{
+    padding: 0;
+    margin: 0;
+    /* font-family: sans-serif;   
+} */
 
-/* Beginning of NavBar CSS  Edit anything that has to do with the navbar*/
-.fundaze-nav{
-    font-family: 'Chela One', cursive;
+body{
+    font-family: 'Cinzel', serif;
+    background: black;
+}
+
+.container{
+
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.container span{
+    text-transform: uppercase;
+    display: block;
+}
+
+.text1{
+    color: #6ab04c;
+    background: black;
+    font-size: 60px;
+    font-weight: 700px;
+    letter-spacing: 8px;
+    margin-bottom: 20px;
+    position: relative;
+    animation: text 3s 1;
+}
+
+.text2{
     font-size: 30px;
+    color: white;
 }
 
-#fd{
-    font-family: 'Monoton', cursive;
-    color: #006622;
-    font-size: 50px;
+@keyframes text {
+    0%{
+        color: black;
+        margin-bottom: -40px;
+    }
+    30%{
+        letter-spacing: 25px;
+        margin-bottom: -40px;
+    }
+    85%{
+        letter-spacing: 8px;
+        margin-bottom: -40px;
+    }
 }
 
-#unaze{
-    font-size: 40px;
-    color: #006622;
-}
-/* End of NavBar */
 
-/* Photo Content */
-.fixed-photo-content{
-    background-image: url("../img/img1.jpg");
-    height: 90vh;
-    width: 100%;
-    
+
+.black{
+    background: yellow;
+    height: 500px;
+    margin-top: 1200px;
+    position: fixed;
 }
-/* End Photo Content */
+
 
 
